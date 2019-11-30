@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+			<style>
+					.button
+					{
+					border: 2px lightskyblue;
+ 					border-radius: 100px;
+					}
+			</style>
+    </head>
+    <body>
+			<style>
+					.alphaButtons
+					{
+					margin: 2px;
+					border: 2px;
+ 					border-radius: 15%;
+					width: 6vh;
+					height: 6vh;
+					background-color:  rgb(21, 216, 157);
+					}
+					.buttons{
+					margin: 2px;
+					border: 2px;
+ 					border-radius: 15%;
+					width: 25%;
+					height: 5vh;
+					background-color: lightskyblue;
+					
+					}
+			</style>
+
+		<img src = '0.jpg' id = 'hangman' width = '30%' height="30%" style="display: block; margin-left: auto; margin-right: auto;">
+		<div style="text-align: center; word-wrap: break-word">
+		 <h1 id = 'main' ></h1>
+		</div>
+		 <br>
+		 <div style="text-align: center;">
+		<button onclick="showHints()" class="buttons">Hints</button>
+		<button onclick="newMovie()" class="buttons"> New Movie </button>
+		 </div>
+		<br><br>
+		<div style="text-align: center;">
+		<button onclick = "guess('A')" id = "A") class = "alphaButtons"> A </button>
+		<button onclick = "guess('B')" id = "B") class = "alphaButtons"> B </button>
+		<button onclick = "guess('C')" id = "C") class = "alphaButtons"> C </button>
+		<button onclick = "guess('D')" id = "D") class = "alphaButtons"> D </button>
+		<button onclick = "guess('E')" id = "E") class = "alphaButtons"> E </button>
+		<button onclick = "guess('F')" id = "F") class = "alphaButtons"> F </button>
+		<button onclick = "guess('G')" id = "G") class = "alphaButtons"> G </button>
+		<button onclick = "guess('H')" id = "H") class = "alphaButtons"> H </button>
+		<button onclick = "guess('I')" id = "I") class = "alphaButtons"> I </button>
+		<button onclick = "guess('J')" id = "J") class = "alphaButtons"> J </button>
+		<button onclick = "guess('K')" id = "K") class = "alphaButtons"> K </button>
+		<button onclick = "guess('L')" id = "L") class = "alphaButtons"> L </button>
+		<button onclick = "guess('M')" id = "M") class = "alphaButtons"> M </button>
+		<button onclick = "guess('N')" id = "N") class = "alphaButtons"> N </button>
+		<button onclick = "guess('O')" id = "O") class = "alphaButtons"> O </button>
+		<button onclick = "guess('P')" id = "P") class = "alphaButtons"> P </button>
+		<button onclick = "guess('Q')" id = "Q") class = "alphaButtons"> Q </button>
+		<button onclick = "guess('R')" id = "R") class = "alphaButtons"> R </button>
+		<button onclick = "guess('S')" id = "S") class = "alphaButtons"> S </button>
+		<button onclick = "guess('T')" id = "T") class = "alphaButtons"> T </button>
+		<button onclick = "guess('U')" id = "U") class = "alphaButtons"> U </button>
+		<button onclick = "guess('V')" id = "V") class = "alphaButtons"> V </button>
+		<button onclick = "guess('W')" id = "W") class = "alphaButtons"> W </button>
+		<button onclick = "guess('X')" id = "X") class = "alphaButtons"> X </button>
+		<button onclick = "guess('Y')" id = "Y") class = "alphaButtons"> Y </button>
+		<button onclick = "guess('Z')" id = "Z") class = "alphaButtons"> Z </button>
+		</div>
+		<script src = 'data.js'></script>
+		<script src = 'main.js'></script>
+    </body>
+</html>
