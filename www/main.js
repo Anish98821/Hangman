@@ -29,8 +29,8 @@ function main()
 
 		
 	}	
-	console.log(x)
-	console.log(allAlphabets)
+	//console.log(x)
+	//console.log(allAlphabets)
 	mainSpace.innerHTML = String(x.join(' '))
 	showHints()
 
@@ -95,6 +95,8 @@ function reset()
 	toReset.disabled = false
 	toReset.style = ""
 	});
+	allGuesses = []
+	allAlphabets = []
 	hangman.src = "0.jpg"
 	wrongGuessNo = 0
 	main()
