@@ -1,14 +1,9 @@
-# A Blank PhoneGap App
+# Movie Hangman
 
-## Usage
+## A simple hangman game written in HTML,CSS and JS
 
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
+ 
 
 ### Desktop
 
-In your browser, open the file:
-
-    /www/index.html
 
