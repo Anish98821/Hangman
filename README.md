@@ -4,6 +4,6 @@
 
  
 
-### Desktop
+### Download apk file [here](https://build.phonegap.com/apps/3805876/share)
 
 
