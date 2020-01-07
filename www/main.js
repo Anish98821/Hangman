@@ -1,3 +1,4 @@
+
 mainSpace = document.getElementById('main')
 hangman = document.getElementById('hangman')
 wGuess = document.getElementById('wrongGuess')
@@ -8,7 +9,10 @@ movie = []
 allAlphabets = []
 
 function main()
-{      
+{   window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {
+    alert("Error occured: " + errorMsg);//or any message
+    return false;
+	}
 	x = []
 	movie = movies[Math.floor(Math.random()*movies.length)]
 	name = movie.Title.toUpperCase()
