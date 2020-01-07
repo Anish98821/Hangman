@@ -1,9 +1,7 @@
 # Movie Hangman
 
-## A simple hangman game written in HTML,CSS and JS
+ A simple hangman game with a movie theme written in HTML,CSS and JS.
 
- 
-
-### Desktop
+ Download the apk file [here](https://build.phonegap.com/apps/3805876/download/android/?qr_key=bef_KCxBGbvRHCy-GdiA).
 
 
